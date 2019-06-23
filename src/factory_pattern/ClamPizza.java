@@ -1,7 +1,7 @@
 package factory_pattern;
 
 /**
- * 具体的pizza
+ * 具体的pizza 实体
  */
 public class ClamPizza extends Pizza {
 
