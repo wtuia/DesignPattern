@@ -1,1 +1,1 @@
-# 设计模式示例
+Design Pattern Code
