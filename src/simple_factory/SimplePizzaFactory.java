@@ -1,5 +1,8 @@
 package simple_factory;
 
+/**
+ * 实例化工厂，根据传入的类型实例化对象
+ */
 public class SimplePizzaFactory {
 
     Pizza pizza;

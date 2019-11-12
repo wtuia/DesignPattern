@@ -1,7 +1,7 @@
 package simple_factory;
 
 /**
- * 具体的pizza
+ * 具体需要管理的实现类
  */
 public class ClamPizza implements Pizza{
 

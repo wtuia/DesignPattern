@@ -1,6 +1,6 @@
 package proxy.dynamic_proxy;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
@@ -25,7 +25,6 @@ public class ProxyTest {
         stuProxy.payClassFees();
 
     }
-
 
     @Test
     public void Demo1(){

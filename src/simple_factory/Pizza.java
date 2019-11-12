@@ -1,5 +1,8 @@
 package simple_factory;
 
+/**
+ * 通用父接口
+ */
 public interface Pizza {
 
 

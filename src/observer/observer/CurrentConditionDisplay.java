@@ -5,7 +5,7 @@ import observer.obserable.Obserable;
 /**
  * 具体的观察者
  */
-public class CurrentConditionDisplay implements DisaplyElement, Observer{
+public class CurrentConditionDisplay implements DisplayElement, Observer{
     
     private float temperature;
     private float humidity;
@@ -41,7 +41,9 @@ public class CurrentConditionDisplay implements DisaplyElement, Observer{
 
     @Override
     public void display() {
-     System.out.println("当前"+temperature+","+humidity+","+pressure);
+        String thisName = this.getClass().getName();
+     System.out.println( thisName.substring(thisName.lastIndexOf(".") + 1) +
+             " 当前 " + temperature + "," + humidity + "," + pressure);
     }
 
 }

@@ -1,7 +1,7 @@
 package simple_factory;
 
 /**
- * 具体的pizza实体
+ * 具体需要管理的实现类
  */
 public class ChinesePizza implements Pizza {
     @Override
